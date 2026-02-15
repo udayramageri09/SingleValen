@@ -1,0 +1,30 @@
+/* client/src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Manrope:wght@300;400;600&display=swap');
+
+:root {
+  --bg-primary: #0F0505;
+  --bg-secondary: #1a0b0b;
+  --gold: #D4AF37;
+  --wine: #720e1e;
+  --text-primary: #F5F5F5;
+  --velvet-gradient: linear-gradient(to bottom, #0F0505 0%, #2a0a0a 100%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Manrope', sans-serif; /* body font usage */
+  overflow-x: hidden;
+}
+
+.luxury-heading {
+  font-family: 'Playfair Display', serif; /* heading font usage */
+  letter-spacing: -0.05em; /* tracking-tighter */
+}
+
+.glass-card {
+  backdrop-filter: blur(20px); /* backdrop-blur-xl */
+  background: rgba(20, 5, 5, 0.7); /* glass primary */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
